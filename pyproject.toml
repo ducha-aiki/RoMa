@@ -23,10 +23,10 @@ dependencies = [
     "wandb",
 ]
 
-[project.optional-dependencies]
-fused-local-corr = [
-    "fused-local-corr>=0.2.2 ; sys_platform == 'linux'",
-]
+#[project.optional-dependencies]
+#fused-local-corr = [
+#    "fused-local-corr>=0.2.2 ; sys_platform == 'linux'",
+#]
 
 [build-system]
 requires = ["uv_build>=0.8.14,<0.9.0"]
