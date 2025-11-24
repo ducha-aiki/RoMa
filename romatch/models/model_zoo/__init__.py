@@ -36,7 +36,7 @@ def roma_outdoor(
     upsample_res: Union[int, tuple[int, int]] = 864,
     amp_dtype: torch.dtype = torch.float16,
     symmetric=True,
-    use_custom_corr=True,
+    use_custom_corr=False,
     upsample_preds=True,
 ):
     if weights is None:
@@ -69,7 +69,7 @@ def roma_indoor(
     upsample_res: Union[int, tuple[int, int]] = 864,
     amp_dtype: torch.dtype = torch.float16,
     symmetric=True,
-    use_custom_corr=True,
+    use_custom_corr=False,
     upsample_preds=True,
 ):
     if weights is None:
