@@ -36,7 +36,7 @@ def roma_model(
     weights=None,
     dinov2_weights=None,
     amp_dtype: torch.dtype = torch.float16,
-    use_custom_corr=True,
+    use_custom_corr=False,
     symmetric=True,
     upsample_res=None,
     sample_thresh=0.05,
